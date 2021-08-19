@@ -13,7 +13,7 @@
 
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
-echo 'src-git luci-app-adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 #sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
